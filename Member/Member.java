@@ -164,8 +164,9 @@ boolean exit= true ;
 				current.displayStatistics();
 				break;//close case 4
 			case 5:
+					current.rest();
 				Session =false;
-				break;//close case 4
+				break;//close case 5
 				default:
 					System.out.println("invalid input try again ");
 			
@@ -227,4 +228,5 @@ default : System.out.println("invalid input try agian ");
 }
 }
  
+
 
