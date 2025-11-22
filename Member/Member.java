@@ -1,4 +1,4 @@
-package phase2;
+package Member;
 import java.util.Scanner;
 //                            https://github.com/A3zewy/Member
 /*
@@ -7,7 +7,7 @@ import java.util.Scanner;
  * 
  */
 
-public class Member {  
+ class Member {  
     // Instance attributes (session + persistent borrowedCount)  
     private int id;  
     private String name;  
@@ -111,7 +111,7 @@ public class Member {
   
     // Setter for borrowedCount if needed externally (not used in this program)  
 }
- class LibararySimulator{
+public class LibararySimulator{
 
 public static void main(String[]args) {
 	Scanner input=new Scanner(System.in);
@@ -229,6 +229,7 @@ default : System.out.println("invalid input try agian ");
 }
 }
  
+
 
 
 
